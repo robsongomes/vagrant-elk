@@ -9,3 +9,6 @@ sudo cp /vagrant/kibana/kibana.yml /etc/kibana/ && \
 
 # Inicia o serviço do kibana
 sudo service kibana start 
+
+# Aguardando um tempo para o serviço subir
+sleep 60

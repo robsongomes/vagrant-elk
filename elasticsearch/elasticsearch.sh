@@ -12,3 +12,6 @@ sudo cp /vagrant/elasticsearch/elasticsearch.yml /etc/elasticsearch/
 
 # Inicia o serviço do Elasticsearch
 sudo service elasticsearch start
+
+# Aguardando um pouco para o serviço subir
+sleep 30

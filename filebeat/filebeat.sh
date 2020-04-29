@@ -13,3 +13,6 @@ sudo cp /vagrant/filebeat/default.json /usr/share/filebeat/module/apache/access/
 
 # Inicia o serviço do filebeat
 sudo service filebeat start
+
+# Aguardando um pouco para o serviço subir
+sleep 15
