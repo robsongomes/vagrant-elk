@@ -7,6 +7,9 @@ sudo dpkg -i filebeat-7.6.2-amd64.deb
 # Enable Apache Filebeat Module
 sudo filebeat modules enable apache
 
+# Copy filebeat config
+sudo cp /vagrant/filebeat/filebeat.yml /etc/filebeat/
+
 # Copy configuração do campo de tempo de resposta no Filebeat
 sudo cp /vagrant/filebeat/fields.yml /etc/filebeat/ 
 sudo cp /vagrant/filebeat/default.json /usr/share/filebeat/module/apache/access/ingest/
